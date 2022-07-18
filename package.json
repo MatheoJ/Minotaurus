@@ -1,0 +1,24 @@
+{
+  "name": "minotaurus",
+  "version": "0.1.0",
+  "description": "ISN Project 2018/2019",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "electron": "^5.0.13",
+    "electron-packager": "^13.1.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "compile": "electron-packager . Minotaurus --out=./out --overwrite --icon=./favicon.ico"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheoJ/Minotaurus"
+  },
+  "author": "Jules Lefebvre <juleslefebvre.pro@outlook.fr> && Mathéo Joseph <matheo.joseph.01@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/MatheoJ/Minotaurus#readme"
+}
